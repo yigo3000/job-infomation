@@ -92,7 +92,7 @@ if __name__ == "__main__" and GUI:
 
     var=StringVar()
     wdgt_label_2 = Label(top,textvariable=var,relief=RAISED,bd=0)
-    var.set(r'''Type or load "key words" and "pages" ''')
+    var.set(r'''Type or load "key words" and "pages", use"," between multiple words ''')
     wdgt_label_2.pack(side = RIGHT)
     wdgt_label_2.place(bordermode=OUTSIDE,x=0,y=0)
 
